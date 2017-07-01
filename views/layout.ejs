@@ -4,11 +4,14 @@
     <title><%= title %></title>
     <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+	<% include ./partials/header.ejs %>
     <div class="container">
         <%- body %>
     </div>
+    <% include ./partials/footer.ejs %>
     <script src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
 </body>
 </html>
