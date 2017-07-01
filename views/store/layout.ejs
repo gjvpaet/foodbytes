@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
+    </head>
+    <body>
+        <% include ./partials/header.ejs %>
+        <div class="container">
+            <%- body %>
+        </div>
+        <script src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    </body>
+</html>
